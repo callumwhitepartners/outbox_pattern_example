@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from outbox.message_outbox import IMessageOutbox
+from messaging.message_outbox import IMessageOutbox
 from shared.event import Event
 
 

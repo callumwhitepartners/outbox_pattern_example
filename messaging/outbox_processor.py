@@ -6,8 +6,8 @@ from apos import Apos
 from sqlalchemy.orm import Session
 from structlog.typing import FilteringBoundLogger
 
-from outbox.message import MessageType
-from outbox.message_outbox import IMessageOutbox
+from messaging.message import MessageType
+from messaging.message_outbox import IMessageOutbox
 
 
 class OutboxProcessor:

@@ -5,8 +5,8 @@ from sqlalchemy import CHAR, Column, DateTime, String, null, select
 from sqlalchemy.dialects.sqlite.json import JSON
 from sqlalchemy.orm import Session
 
-from outbox.message import MessageType, OutboxMessage
-from outbox.message_outbox import IMessageOutbox
+from messaging.message import MessageType, OutboxMessage
+from messaging.message_outbox import IMessageOutbox
 from shared.db import Base
 from shared.entity_id import EntityId
 from shared.event import Event
